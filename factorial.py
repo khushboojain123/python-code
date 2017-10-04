@@ -18,3 +18,12 @@ def fact(n):
             print("you sucessfully entered integer")
 if __name__== "__main__":
     fact(n)
+    while True:
+        again=input("do you want to process again:y/n-\n")
+        if again=='y':
+            even_odd()
+        else:
+            print("thank you for been here.....your are exiting from here.........bye bye!!!!")
+            exit()
+
+
